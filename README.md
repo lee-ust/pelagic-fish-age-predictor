@@ -3,8 +3,6 @@
 
 > A machine learning web application for predicting pelagic fish age based on environmental conditions and physical traits.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.com)
-
 ## 🎯 What This Project Demonstrates
 
 This project showcases my machine learning and software development skills through:
