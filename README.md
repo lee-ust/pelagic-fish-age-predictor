@@ -289,7 +289,4 @@ streamlit run scripts/front_end.py --server.port 8502
 ls output/*.png
 ```
 
----
 
-**⬆️ Back to Top** | **📧 Contact** | **📄 License**
-```
