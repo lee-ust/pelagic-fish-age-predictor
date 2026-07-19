@@ -1,0 +1,128 @@
+# .gitignore - Comprehensive for Python + R project
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+virtualenv/
+pyvenv.cfg
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb
+!model.ipynb  # Keep this one since it's your main model file
+
+# Streamlit
+.streamlit/
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.bak
+*.tmp
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+
+# R - Important for your data_analysis.r
+.RData
+.RDataTmp
+.Rhistory
+.Rapp.history
+.Rproj.user
+.Rproj.user/
+*.Rproj
+.Rbuildignore
+.Renviron
+.Ruserdata
+.Rscript_history
+.Rhistory
+.RData
+.RDataTmp
+.Rproj.user/
+.Rhistory
+
+# RStudio
+.Rproj.user/
+.Rstudio/
+.RecentFiles
+.RData
+.Ruserdata
+
+# Data files ]
+data/*.csv  
+
+
+
+# Coverage reports
+coverage/
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# pytest
+.pytest_cache/
+test_results/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Local development
+local_settings.py
+database.db
+*.db
+*.sqlite3
